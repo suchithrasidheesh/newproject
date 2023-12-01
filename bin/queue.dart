@@ -1,7 +1,6 @@
 import 'dart:collection';
-
 void main(){
-  var list1=[1,2,3,4,5];
+  List list1=[1,2,3,4,5];
   Queue queue1=Queue.from(list1);
   print(queue1);
   queue1.add(6);
