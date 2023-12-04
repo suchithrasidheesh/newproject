@@ -18,7 +18,7 @@ class myclass{
   myclass.one(){
     print("flutter");
   }
-  //parametrised named constructro
+  //parametrised named constructor
   myclass.two(int a,int b){
     int sum=a+b;
     print(sum);
