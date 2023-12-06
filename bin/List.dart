@@ -38,5 +38,10 @@ void main(){
     list6.forEach((element) {
       print(element);
     });
+    print(list6.join(","));
+    var list7=List.unmodifiable(list6);
+    print(list7);
+    var set1=list6.toSet();
+    print(set1);
 
 }
